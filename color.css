@@ -1,0 +1,149 @@
+.body{
+    box-sizing: border-box;
+    margin-top:50px;
+    justify-content: center;
+    background-color: antiquewhite;
+    font-family: poppins;
+    }
+.nav{
+    display: flex; /* one after another links*/
+    padding: 10px;
+    height: 50px;
+    background:  #04AA6D;
+    }
+.nav a{
+    text-decoration: none; /* to remove links underscore*/
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: black;  
+    padding: 16px 20px 16px 0px; /* top right bottom left*/
+}
+.nav a:active,
+.nav a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.content{
+    margin: 25%;
+    padding: auto;
+    padding-top: 0%;
+    margin-top: 0;
+    display: flex;
+}
+.left{
+    background-color:  #04AA6D;
+    color: #ffffff;
+    padding: 20%;
+}
+.left p{
+    font-size: 10px;
+}
+.left button{
+    height: 40px;
+    width: 150px;
+    background-color:  #04AA6D;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}
+.left button:hover{
+    background-color:#ffffff;
+    color: #04AA6D;
+}
+.right{
+    text-align: center;
+    background-color:  #ffffff;
+    padding: 10px;
+}
+.right input{
+    height: 30px;
+    width: 350px;
+    margin: 0px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+    margin: 5px;
+    border: 2px solid #555;
+    border-radius: 3px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+}
+.right button{
+    height: 40px;
+    width: 150px;
+    background-color:  #04AA6D;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0px;
+}
+.right button:hover{
+    background-color:#ffffff;
+    color: #04AA6D;
+    border: 2px solid #04AA6D;
+}
+.credits{
+    opacity: 30%;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.credits p{
+    margin: 20px;
+}
+
+@media (max-width:700px) {
+    .nav{
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        position: relative;
+    }
+    .nav a{
+        font-size: 12px;
+        text-align: center;
+        width: auto;
+    }
+    .content {
+        display: block;
+    }
+    .right{
+        margin: 0;
+        width: auto;
+    }
+    .check{
+        font-size: 10px;
+        display: block;
+    }
+    #check{
+        height: 15px;
+        width: 15px;
+    }
+    .left{
+        margin: 0;
+        width: auto;
+    }
+    form{
+        width: auto;
+    }
+    .right input{
+        width: auto;
+        margin: 5px;
+    }
+    .left button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .right button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0;
+    }
+}

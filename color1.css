@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    justify-content: center;
+}    
+p{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    margin-top:50px;
+    padding: 0px;
+    background-color: antiquewhite;
+    font-family: poppins;
+    }
+.nav{
+    display: flex; /* one after another links*/
+    padding: 10px;
+    height: 50px;
+    background:  #04AA6D;
+    }
+.nav a{
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: black;  
+    padding: 16px 20px 16px 0px; /* top right bottom left*/
+}
+.nav a:active,
+.nav a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.content{
+    align-items: center;
+    position:absolute;
+    margin-left: 25%;
+    display: flex;
+}
+.left{
+    text-align: center;
+    background-color:  #ffffff;
+    padding: 40px;
+}
+.left input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+    margin: 5px;
+    border: 2px solid #555;
+    border-radius: 3px;
+}
+.handles{
+    display: flex;
+}
+.left button{
+    height: 40px;
+    width: 150px;
+    background-color:  #04AA6D;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0px;
+}
+.left button:hover{
+    background-color:#ffffff;
+    color: #04AA6D;
+    border: 2px solid #04AA6D;
+}
+
+.right{
+    background-color:  #04AA6D;
+    color: #ffffff;
+    padding: 115px;
+}
+.right button{
+    height: 40px;
+    width: 150px;
+    background-color:  #04AA6D;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}
+.right button:hover{
+    background-color:#ffffff;
+    color: #04AA6D;
+}
+.credits{
+    margin: 500px;
+    opacity: 10%;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.credits p{
+    margin: 20px;
+}
+
+@media (max-width:700px) {
+    .nav{
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+    }
+    .nav a{
+        font-size: 12px;
+        text-align: center;
+        width: auto;
+    }
+    .content {
+        display: block;
+    }
+    .right{
+        margin: 0;
+        width: auto;
+    }
+    .left{
+        margin: 0;
+        width: auto;
+    }
+    .left input{
+        width: 200px;
+    }
+    form{
+        width: auto;
+    }
+    .right input{
+        width: auto;
+        margin: 5px;
+    }
+    .left button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0;
+    }
+    .right button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0;
+    }
+}
+
+
+
