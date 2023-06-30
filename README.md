@@ -16,11 +16,11 @@ This repository contains the source code for a basic login and sign-in webpage. 
 ## Installation
 
 1. Open the project folder in your preferred code editor.
-2. Launch the `index.html` file in a web browser.
+2. Launch the `SIGNIN.html` and `SIGNUP.html` file in a web browser.
 
 ## Usage
 
-1. Access the login page by opening the `index.html` file.
+1. Access the login page by opening the `SIGNIN.html` file.
 2. To create a new account, click on the "Sign Up" link and provide a unique username and password.
 3. To log in, enter your username and password in the respective fields and click on the "Sign In" button.
 4. Upon successful authentication, you will be redirected to a dashboard or homepage.
