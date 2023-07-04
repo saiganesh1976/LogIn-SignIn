@@ -11,6 +11,7 @@ This repository contains the source code for a basic login and sign-in webpage. 
 
 - HTML
 - CSS
+- JavaScript
 - Bootstrap
 
 ## Installation
