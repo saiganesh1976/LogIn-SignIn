@@ -10,6 +10,7 @@
   <title>Homepage</title>
 </head>
 <body class="body">
+  <script src="SIGNUP.js"></script>
 
     <!-- Page links -->
 
@@ -45,8 +46,8 @@
     <h2>Create Account</h2>
     <form action="post" class="form" name="myForm" required>
       <input type="email" placeholder="Email" id="email" autocomplete="off" required>   <br>
-      <input type="text" placeholder="First Name" id="FNAME" name="fname" autocomplete="off" required><br>
-      <input type="text" placeholder="Last Name" id="LNAME" autocomplete="off" required><br>
+      <input type="text" placeholder="First Name" id="fname" name="fname" autocomplete="off" required><br>
+      <input type="text" placeholder="Last Name" id="lname" autocomplete="off" required><br>
       <input type="password" placeholder="Password" id="pwd" autocomplete="off" required><br>
       <input type="TEL" placeholder="Phone Number" id="PNO" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" autocomplete="off" required><br>
       <br>
@@ -58,7 +59,7 @@
       <a href="#" target="_blank"><i class="bi bi-facebook" style="font-size: 25px; color: #4285F4; padding: 5px;"></i></a>
       </div>
       <br>
-      <button type="button" onclick="alert('Successfully created!!')">SIGN UP</button>
+      <button type="button" onclick="validateForm()">SIGN UP</button>
     </form>
   </div>
   <!-- RIGHT COLUMN ENDS -->
